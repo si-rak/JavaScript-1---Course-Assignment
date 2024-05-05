@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+  <section id="header">
+    <a href="index.html"><img src="/images/RainyDays_Logo (1).png" class="logo" alt="Rainydays logo"></a>
+    <div>
+      <ul id="navbar">
+        <li><a class="actv" href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="category.html">Categories</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+
+  </section>
+
+  <section id="hero">
+    <h2>Broaden Your Comfort Zone</h2>
+    <p>Move without limitatation whatever the weather may be
+      and get the utmost experience in rainy days with our
+      comfortable and light weight rain jackets.</p>
+    <a href="category.html"> <button>Explore</button></a>
+  </section>
+
+  <section class="wrapper section-p1 ">
+    <h2>Products</h2>
+    <div id="search-container">
+      <input type="search" id="search-input" placeholder="Search pruduct name here..">
+      <button id="search">Search</button>
+    </div>
+    <div id="buttons">
+      <button class="button-value" onclick="filterProduct('All')">All</button>
+      <button class="button-value" onclick="filterProduct('Men')">Men</button>
+      <button class="button-value" onclick="filterProduct('Women')">Women</button>
+    </div>
+    <div id="products"></div>
+  </section>
+
+
+
+
+  <section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+      <h4>Sign Up For Newsletters</h4>
+      <p>Get E-mail updates about our laters shop and <span>special offers.</span>
+      </p>
+    </div>
+    <div class="form">
+      <input type="text" placeholder="Your email address">
+      <button class="normal">Sign Up</button>
+
+    </div>
+
+  </section>
+
+  <footer class="section-p1">
+    <div class="col">
+      <img class="logo" src="/images/RainyDays_Logo (1).png" alt="">
+      <h4>Contact</h4>
+      <p> <strong>Address:</strong> Stavangerveien 16, 4315 Sandnes</p>
+      <p> <strong>Phone:</strong> 40000000</p>
+      <p> <strong>Email:</strong> contact@rainydays.no</p>
+      <div class="follow">
+        <h4>Follow Us</h4>
+        <div class="icon">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+          <i class="fab fa-pinterest"></i>
+          <i class="fab fa-tiktok"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <h4>Sitemap</h4>
+      <a href="#">Home</a>
+      <a href="#">Products</a>
+      <a href="#">Contact Us</a>
+    </div>
+
+    <div class="col">
+      <h4>About</h4>
+      <a href="#">About Us</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms & Conditions</a>
+    </div>
+
+    <div class="col install">
+      <h4>Install App</h4>
+      <p>From App Store or Google Play</p>
+      <div class="row">
+        <img src="/images/App Store.jpg" alt="App Store">
+        <img src="/images/Google play.png" alt="Google Play">
+      </div>
+      <p>Secured Payment Gateways</p>
+      <img src="/images/Visa.png" alt="Visacard">
+      <img src="/images/Mastercard.png" alt="Mastercard">
+      <img src="/images/Paypal.png" alt="Paypal">
+      <img src="/images/Vipps.png" alt="Vipps">
+    </div>
+    <div class="copyright">
+      <p> &copy; 2024 Rainy Days</p>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
